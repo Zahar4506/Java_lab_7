@@ -25,69 +25,114 @@ public class Main {
     public static long d = 123123;
     public static double e = 0.506;
     public static double f = 1.49;
+    public static String str = "asd";
+    public static boolean bool;
+    public static Integer ab = 54;
 
 
     public static void main(String[] args) {
-//        Cow cow = new Cow();
-//        Whale wh = new Whale();
-        Cat cat = new Cat();
+        //Cow cow = new Cow();
+        Cow cow = new Whale();
+        Whale wh = new Whale();
+        Cat cat = new Dog();
         Dog dog = new Dog();
-        Dog dogi = dog.getChild();
-        Cat cati = cat.getChild();
-//        action(cat);
-//        action(dog);
-//        action(a);
-//        action();
+//        Dog dogi = dog.getChild();
+//        Cat cati = cat.getChild();
+
+
+        getInsatceOf(cow);
+        getInsatceOf(wh);
+        getInsatceOf(cat);
+        getInsatceOf(dog);
+
+        print(a);
+        print(str);
+        print(a, b);
+        print(bool);
+        print(ab);
+
+
 //        System.out.println("Минимум ="+min(a,b)+" Минимум ="+min(c,d)+" Минимум ="+min(e,f));
 //        System.out.println("Максимум ="+max(a,b)+" Максимум ="+max(c,d)+" Максимум ="+max(e,f));
 
     }
 
-    public static int min(int a,int b){
-        if (a<b){
+    public static int min(int a, int b) {
+        if (a < b) {
             return a;
-        }else return b;
+        } else return b;
     }
-    public static long min(long a,long b){
-        if (a<b){
+
+    public static long min(long a, long b) {
+        if (a < b) {
             return a;
-        }else return b;
+        } else return b;
     }
-    public static double min(double a,double b){
-        if (a<b){
+
+    public static double min(double a, double b) {
+        if (a < b) {
             return a;
-        }else return b;
+        } else return b;
     }
-    public static int max(int a,int b){
-        if (a>b){
+
+    public static int max(int a, int b) {
+        if (a > b) {
             return a;
-        }else return b;
+        } else return b;
     }
-    public static long max(long a,long b){
-        if (a>b){
+
+    public static long max(long a, long b) {
+        if (a > b) {
             return a;
-        }else return b;
+        } else return b;
     }
-    public static double max(double a,double b){
-        if (a>b){
+
+    public static double max(double a, double b) {
+        if (a > b) {
             return a;
-        }else return b;
+        } else return b;
     }
 
 
-    public static void action(Cat cat) {
-        System.out.println("Это кошак");
+    public static void getInsatceOf(Object object) {
+        if (object instanceof Cat) {
+            System.out.println("Это кошак");
+        }
+        if (object instanceof Dog) {
+            System.out.println("Это псюга");
+        }
+        if (object instanceof Cow) {
+            System.out.println("Это корова");
+        }
+        if (object instanceof Whale) {
+            System.out.println("Это кит");
+        }
+    }
+/*        Задачи на перегрузку методов
+1.	Написать два метода: print(int) и print(String).
+2.	Написать два метода: print(int) и print(Integer).Написать такой код в методе main, чтобы вызвались они оба.
+3.	Написать пять методов print с разными параметрами.
+.*/
+
+    public static void print(int a) {
+        System.out.println("вывод инт " + a);
     }
 
-    public static void action(Dog dog) {
-        System.out.println("Это псюга");
+    public static void print(String str) {
+
+        System.out.println("вывод строки " + str);
     }
 
-    public static void action() {
-        System.out.println("Это питица");
+    public static void print(boolean bool) {
+        System.out.println("вывод булеан " + bool);
     }
 
-    public static void action(int a) {
-        System.out.println("Это лампа");
+    public static void print(Integer a) {
+        System.out.println("вывод Integer " + a);
     }
+
+    public static void print(int a, int b) {
+        System.out.println("вывод a и b" + a + " " + b);
+    }
+
 }

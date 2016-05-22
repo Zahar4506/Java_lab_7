@@ -7,8 +7,8 @@ public class Cow {
     public String name = "";
 
     public Cow() {
-        setName("Я корова");
-      System.out.println(getName());
+//        setName("Я корова");
+//      System.out.println(getName());
     }
 
     public String getName() {

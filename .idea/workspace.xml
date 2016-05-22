@@ -28,26 +28,17 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Animals/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4895288">
-              <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.19895288">
+              <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
               <folding>
-                <element signature="e#2577#2578#0" expanded="true" />
-                <element signature="e#2624#2625#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Cow.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Animals/Cow.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-              <folding>
-                <element signature="e#234#235#0" expanded="true" />
-                <element signature="e#266#267#0" expanded="true" />
-                <element signature="e#306#307#0" expanded="true" />
-                <element signature="e#338#339#0" expanded="true" />
+                <element signature="e#3566#3567#0" expanded="true" />
+                <element signature="e#3618#3619#0" expanded="true" />
+                <element signature="e#3766#3767#0" expanded="true" />
+                <element signature="e#3824#3825#0" expanded="true" />
+                <element signature="e#3867#3868#0" expanded="true" />
+                <element signature="e#3923#3924#0" expanded="true" />
+                <element signature="e#3969#3970#0" expanded="true" />
+                <element signature="e#4032#4033#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -57,7 +48,7 @@
         <entry file="file://$PROJECT_DIR$/src/Animals/Cat.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+              <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -67,7 +58,7 @@
         <entry file="file://$PROJECT_DIR$/src/Animals/Dog.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -77,8 +68,21 @@
         <entry file="file://$PROJECT_DIR$/src/Animals/Whale.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Cow.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Animals/Cow.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+              <folding>
+                <element signature="e#310#311#0" expanded="true" />
+                <element signature="e#342#343#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -101,10 +105,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Animals/Whale.java" />
-        <option value="$PROJECT_DIR$/src/Animals/Cow.java" />
         <option value="$PROJECT_DIR$/src/Animals/Cat.java" />
-        <option value="$PROJECT_DIR$/src/Animals/Main.java" />
         <option value="$PROJECT_DIR$/src/Animals/Dog.java" />
+        <option value="$PROJECT_DIR$/src/Animals/Cow.java" />
+        <option value="$PROJECT_DIR$/src/Animals/Main.java" />
       </list>
     </option>
   </component>
@@ -181,6 +185,10 @@
       <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
@@ -459,12 +467,12 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20953101" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -487,7 +495,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -501,8 +509,14 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#2577#2578#0" expanded="true" />
-            <element signature="e#2624#2625#0" expanded="true" />
+            <element signature="e#3566#3567#0" expanded="true" />
+            <element signature="e#3618#3619#0" expanded="true" />
+            <element signature="e#3766#3767#0" expanded="true" />
+            <element signature="e#3824#3825#0" expanded="true" />
+            <element signature="e#3867#3868#0" expanded="true" />
+            <element signature="e#3923#3924#0" expanded="true" />
+            <element signature="e#3969#3970#0" expanded="true" />
+            <element signature="e#4032#4033#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -512,10 +526,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding>
-            <element signature="e#234#235#0" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -549,8 +561,14 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
-            <element signature="e#2577#2578#0" expanded="true" />
-            <element signature="e#2624#2625#0" expanded="true" />
+            <element signature="e#3566#3567#0" expanded="true" />
+            <element signature="e#3618#3619#0" expanded="true" />
+            <element signature="e#3766#3767#0" expanded="true" />
+            <element signature="e#3824#3825#0" expanded="true" />
+            <element signature="e#3867#3868#0" expanded="true" />
+            <element signature="e#3923#3924#0" expanded="true" />
+            <element signature="e#3969#3970#0" expanded="true" />
+            <element signature="e#4032#4033#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -560,10 +578,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#234#235#0" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -576,23 +592,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Animals/Whale.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Animals/Cow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
           <folding>
-            <element signature="e#234#235#0" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -600,7 +606,7 @@
     <entry file="file://$PROJECT_DIR$/src/Animals/Cat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
           <folding />
         </state>
       </provider>
@@ -608,18 +614,32 @@
     <entry file="file://$PROJECT_DIR$/src/Animals/Dog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Animals/Whale.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Animals/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4895288">
-          <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.19895288">
+          <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
           <folding>
-            <element signature="e#2577#2578#0" expanded="true" />
-            <element signature="e#2624#2625#0" expanded="true" />
+            <element signature="e#3566#3567#0" expanded="true" />
+            <element signature="e#3618#3619#0" expanded="true" />
+            <element signature="e#3766#3767#0" expanded="true" />
+            <element signature="e#3824#3825#0" expanded="true" />
+            <element signature="e#3867#3868#0" expanded="true" />
+            <element signature="e#3923#3924#0" expanded="true" />
+            <element signature="e#3969#3970#0" expanded="true" />
+            <element signature="e#4032#4033#0" expanded="true" />
           </folding>
         </state>
       </provider>
