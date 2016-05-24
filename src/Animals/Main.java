@@ -32,9 +32,9 @@ public class Main {
 
     public static void main(String[] args) {
         //Cow cow = new Cow();
-        Cow cow = new Whale();
+        Cow cow = new Cow();
         Whale wh = new Whale();
-        Cat cat = new Dog();
+        Cat cat = new Cat();
         Dog dog = new Dog();
 //        Dog dogi = dog.getChild();
 //        Cat cati = cat.getChild();
@@ -95,17 +95,27 @@ public class Main {
 
 
     public static void getInsatceOf(Object object) {
-        if (object instanceof Cat) {
-            System.out.println("Это кошак");
-        }
-        if (object instanceof Dog) {
-            System.out.println("Это псюга");
-        }
-        if (object instanceof Cow) {
-            System.out.println("Это корова");
-        }
-        if (object instanceof Whale) {
-            System.out.println("Это кит");
+        while (true) {
+            if (object instanceof Cat) {
+                try {
+                    object = (Dog) object;
+                    System.out.println("Это псюга");
+                    break;
+                } catch (Exception e) {
+                    System.out.println("Это кошак");
+                    break;
+                }
+            }
+            if (object instanceof Cow) {
+                try {
+                    object = (Whale) object;
+                    System.out.println("Это кит");
+                    break;
+                } catch (Exception e) {
+                    System.out.println("Это корова");
+                    break;
+                }
+            }
         }
     }
 /*        Задачи на перегрузку методов
