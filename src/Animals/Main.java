@@ -36,9 +36,22 @@ public class Main {
         Whale wh = new Whale();
         Cat cat = new Cat();
         Dog dog = new Dog();
+        Snake snake = new Snake();
+        Fish fish = new Fish();
+        Truck truck =new Truck();
+        Sedan sedan = new Sedan();
+        Picup picup = new Picup();
 //        Dog dogi = dog.getChild();
 //        Cat cati = cat.getChild();
-
+        truck.gruz();
+        truck.passanger();
+        sedan.gruz();
+        sedan.passanger();
+        picup.gruz();
+        picup.passanger();
+                snake.voise();
+                fish.voise();
+                cat.voise();
 
         getInsatceOf(cow);
         getInsatceOf(wh);
